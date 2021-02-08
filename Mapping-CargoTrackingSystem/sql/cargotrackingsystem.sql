@@ -16,32 +16,6 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `account`
---
-
-DROP TABLE IF EXISTS `account`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `account` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `name` varchar(45) CHARACTER SET utf8mb4 COLLATE utf8mb4_cs_0900_ai_ci DEFAULT NULL,
-  `pwd` varchar(45) CHARACTER SET utf8mb4 COLLATE utf8mb4_cs_0900_ai_ci NOT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `id_UNIQUE` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_cs_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `account`
---
-
-LOCK TABLES `account` WRITE;
-/*!40000 ALTER TABLE `account` DISABLE KEYS */;
-INSERT INTO `account` VALUES (1,'SongJiang','jishiyu'),(2,'LuJunyi','yuqilin'),(3,'WuYong','zhiduoxing'),(4,'GongsunSheng','ruyunlong');
-/*!40000 ALTER TABLE `account` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `cargo`
 --
 
@@ -67,7 +41,7 @@ CREATE TABLE `cargo` (
 
 LOCK TABLES `cargo` WRITE;
 /*!40000 ALTER TABLE `cargo` DISABLE KEYS */;
-INSERT INTO `cargo` VALUES ('ABC123','文件','HongKong','Helsinki','2009-03-15','Helsinki',1),('JKL567','茶叶','Hangzhou','Stockholms','2009-03-18','Stockholms',1),('NJDPD001','南京板鸭','Nanjing','Guangzhou','2020-12-12','Nanjing',0);
+INSERT INTO `cargo` VALUES ('ABC123','file','HongKong','Helsinki','2009-03-15','Helsinki',1),('JKL567','Tea','Hangzhou','Stockholms','2009-03-18','Stockholms',1),('NJDPD001','NanjingDuck','Nanjing','Guangzhou','2020-12-12','Nanjing',0);
 /*!40000 ALTER TABLE `cargo` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -157,4 +131,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-02-08 10:44:15
+-- Dump completed on 2021-02-08 10:48:39
