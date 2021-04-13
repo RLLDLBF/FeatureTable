@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .div1{
+        left: 0;
+        top: 130px;
+        width: 1525px;
+        height: 0;
+        border: 5px solid rgba(49, 119, 225, 100);
+        position: absolute;
+    }
+    .div2{
+        left: 150px;
+        top: 130px;
+        width: 0;
+        height: 600px;
+        border: 5px solid rgba(49, 119, 225, 100);
+        position: absolute;
+    }
+    .headimage{
+        left: 0;
+        top: 120px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+    }
+    .welcome{
+        left: 10px;
+        top: 300px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+    }
+    .functionbutt{
+        left: 200px;
+        top: 150px;
+        width: 500px;
+        height: 500px;
+        font-size: 24px;
+        position: absolute;
+    }
+    .logo{
+        left: 0;
+        top: 0;
+        width: 145px;
+        height: 142px;
+        position: absolute;
+    }
+    .projectname{
+        left: 200px;
+        top: -30px;
+        color: rgba(117, 137, 251, 100);
+        font-size: 72px;
+        text-align: left;
+        position: absolute;
+    }
+    .logout{
+        left: 1400px;
+        top: 100px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+    }
+    .superherf{
+        left: 1100px;
+        top: 150px;
+        width: 400px;
+        height: 400px;
+        font-size: 24px;
+        position: absolute;
+    }
+</style>
+<body background="/images/Sketch001.png" style=" background-repeat:no-repeat ;background-size:100% 100%;
+background-attachment: fixed;">
+
+
+
+
+
+<div class="logo">
+    <img src="/images/logo.png" width="145" height="142" alt="logo"/>
+</div>
+<div class="projectname">
+    <p>微 服 务 划 分 系 统</p>
+</div>
+<div class="div1"></div>
+<div class="div2"></div>
+<div class="headimage">
+    <p>
+        <img src="/images/head.png" width="150" height="150" alt="用户头像"/>
+    </p>
+</div>
+<div class="welcome">
+    <p>欢迎，用户</p>
+    <p>管理用户: user</p>
+    <p>权限等级: A</p>
+</div>
+<div class="functionbutt">
+    <p>功能：</p><br/>
+    <p>通过对APP进行简单的微服务划分划分</p>
+    <p>从而判断该APP是否适用于微服务架构</p>
+    <form method="get" action="/user/insert">
+        <button type="submit">微服务划分</button>
+    </form>
+</div>
+<div class="logout">
+    <a href="/mainpage">退出登录</a>
+</div>
+<div class="superherf">
+    <p>拓展链接：</p><br/>
+    <a href="https://www.zhihu.com/question/65502802">微服务架构是什么？</a><br/><br/>
+    <a href="https://baike.baidu.com/item/%E5%BE%AE%E6%9C%8D%E5%8A%A1/18758759?fr=aladdin">微服务——百度百科</a><br/><br/>
+    <a href="https://www.redhat.com/zh/topics/microservices/what-are-microservices">什么是微服务</a><br/><br/>
+    <a href="https://www.jianshu.com/p/7293b148028f">微服务入门？这一篇就够了</a><br/><br/>
+    <a href="https://blog.csdn.net/wuxiaobingandbob/article/details/78642020">什么是微服务——CSDN博客</a><br/><br/>
+    <a href="https://baijiahao.baidu.com/s?id=1600354904549354089&wfr=spider&for=pc">十分钟了解微服务架构</a><br/><br/>
+    <a href="https://www.sohu.com/a/221400925_100039689">漫画：什么是微服务</a>
+</div>
+
+
+</body>
+</html>

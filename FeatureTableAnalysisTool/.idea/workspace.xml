@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a090627-786f-445c-a9cd-9464071cda16" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/AnalyseService8006.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/controller/AnalyseServiceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/controller/AnalyseServiceControllerWeb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/dao/AnalyseServiceDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/entities/CommonResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/entities/FeatureTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/entities/FeatureWeight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/service/AnalyseServiceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/service/impl/AnalyseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/resources/templates/GetWeightWeb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/resources/templates/StoreInfoWeb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/target/classes/templates/GetWeightWeb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/target/classes/templates/StoreInfoWeb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/controller/paymentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/controller/paymentWebController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/dao/paymentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/entities/commonResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/entities/payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/paymentMain8001.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/service/impl/paymentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/service/paymentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/META-INF/cloud-provider-payment8001.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/templates/hello.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db2021@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db2021@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db2021@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db2021: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="cloud2021" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML4 File" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/xyz/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ktgUmSCqe9wZJ8nLgA4RgnGeUT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/main/resources/templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\bishe\wangshuaizhou_spirngcloud2020-2021_project\home\cloud2021\cloud-provider-MainPage8002\src\main\resources\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\bishe\wangshuaizhou_spirngcloud2020-2021_project\home\cloud2021\cloud-provider-StatisticsServer8005\src\main\resources\templates" />
+      <recent name="D:\bishe\wangshuaizhou_spirngcloud2020-2021_project\home\cloud2021" />
+      <recent name="D:\bishe\wangshuaizhou_spirngcloud2020-2021_project\home\cloud2021\cloud-provider-payment8001\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wangshuaizhou.springcloud.entities" />
+      <recent name="com.wangshuaizhou.springcloud.dao" />
+      <recent name="com.wangshuaizhou.springcloud.controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wangshuaizhou.springcloud.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.StatisticsServer8005">
+    <configuration name="AnalyseService8006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-AnalyseService8006" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangshuaizhou.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangshuaizhou.springcloud.AnalyseService8006" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPage8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-MainPage8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangshuaizhou.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangshuaizhou.springcloud.MainPage8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticsServer8005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-StatisticsServer8005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangshuaizhou.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangshuaizhou.springcloud.StatisticsServer8005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangshuaizhou.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangshuaizhou.springcloud.eurekaMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="paymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangshuaizhou.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangshuaizhou.springcloud.paymentMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.StatisticsServer8005" />
+        <item itemvalue="Spring Boot.MainPage8002" />
+        <item itemvalue="Spring Boot.eurekaMain7001" />
+        <item itemvalue="Spring Boot.AnalyseService8006" />
+        <item itemvalue="Spring Boot.paymentMain8001" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@84c117fb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@84c117fb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8a3736b8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a090627-786f-445c-a9cd-9464071cda16" name="Default Changelist" comment="" />
+      <created>1606525320567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606525320567</updated>
+      <workItem from="1606525327609" duration="2711000" />
+      <workItem from="1606530390499" duration="6140000" />
+      <workItem from="1606536782013" duration="10755000" />
+      <workItem from="1606622397892" duration="1102000" />
+      <workItem from="1607131211351" duration="3426000" />
+      <workItem from="1607134720410" duration="3942000" />
+      <workItem from="1607138693450" duration="1996000" />
+      <workItem from="1607140718075" duration="6199000" />
+      <workItem from="1607864795755" duration="1134000" />
+      <workItem from="1607875773505" duration="802000" />
+      <workItem from="1607909441448" duration="9252000" />
+      <workItem from="1607941757815" duration="1085000" />
+      <workItem from="1608994108870" duration="1260000" />
+      <workItem from="1609045003046" duration="7063000" />
+      <workItem from="1610249382201" duration="4485000" />
+      <workItem from="1610277529249" duration="527000" />
+      <workItem from="1612054624993" duration="23691000" />
+      <workItem from="1612079931123" duration="4891000" />
+      <workItem from="1612593184468" duration="721000" />
+      <workItem from="1614764290003" duration="3634000" />
+      <workItem from="1614909463753" duration="8704000" />
+      <workItem from="1614933787369" duration="182000" />
+      <workItem from="1615179826166" duration="8918000" />
+      <workItem from="1615533686753" duration="4798000" />
+      <workItem from="1615688896896" duration="7420000" />
+      <workItem from="1616118688792" duration="8077000" />
+      <workItem from="1616486146492" duration="1455000" />
+      <workItem from="1616586346061" duration="3037000" />
+      <workItem from="1617163942540" duration="299000" />
+    </task>
+    <task id="LOCAL-00001" summary="实现了analyseservice、staticsserver的基础功能，包括server、dao层，controller层需要与前端交互故仅实现了接口和简单交互。">
+      <created>1607946999492</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607946999492</updated>
+    </task>
+    <task id="LOCAL-00002" summary="为数据库增添了自增主键，根据开发文档完善了update——featureweight的方法，添加Features权重计算公式，并且实现了insert后自动更新权重。同时上传开题报告。下周元旦更新暂停一周，元旦假期过后进入前端开发阶段，后端开发基本完成。">
+      <created>1609052055395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609052055395</updated>
+    </task>
+    <task id="LOCAL-00003" summary="开始前端开发，对statics的getweight和feedback界面进行功能开发，对analyse的getweight进行功能开发，statics的insert和analyse的store界面进行接口开发，需要进一步学习html的储存、添加更多实例的功能。接下来会进行美工UI的制作开发。">
+      <created>1610277796023</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610277796023</updated>
+    </task>
+    <task id="LOCAL-00004" summary="user/manager前端功能及后端功能以及前后端的链接完成，修复了一些小bug，接下来会对UI界面进行开发。">
+      <created>1612084820998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612084820998</updated>
+    </task>
+    <task id="LOCAL-00005" summary="学习了CSS的用法和spring框架的htmlUI设计，将墨刀制作的前端UI逐步移植到前端，完成main界面的移植，上次更新中修复了一些后端bug">
+      <created>1614767748331</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614767748331</updated>
+    </task>
+    <task id="LOCAL-00006" summary="调整画面格式和布局">
+      <created>1614933877810</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614933877810</updated>
+    </task>
+    <task id="LOCAL-00007" summary="管理员界面部分大体完成，还差亿点点细节，下面进行用户界面的搭建，以管理员界面为模板进行简单修改，还需修改一下用户微服务划分页面布局和逻辑">
+      <created>1615188987722</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615188987722</updated>
+    </task>
+    <task id="LOCAL-00008" summary="用户界面设计基本完成，前端UI整体框架done，todolist：修改微服务计算公式，修改保存文件格式csv">
+      <created>1615702460790</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615702460790</updated>
+    </task>
+    <task id="LOCAL-00009" summary="更新微服务计算公式，将小数转化成保留一位小数的百分数，保存文件格式改为csv">
+      <created>1616126257426</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616126257426</updated>
+    </task>
+    <task id="LOCAL-00010" summary="上传了代码说明文档1.0，并且简单修改了一些BUG">
+      <created>1616588793656</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616588793657</updated>
+    </task>
+    <task id="LOCAL-00011" summary="去除掉无用的module">
+      <created>1617164127527</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617164127527</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/bishe/wangshuaizhou_spirngcloud2020-2021_project/home/cloud2021" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="实现了analyseservice、staticsserver的基础功能，包括server、dao层，controller层需要与前端交互故仅实现了接口和简单交互。" />
+    <MESSAGE value="为数据库增添了自增主键，根据开发文档完善了update——featureweight的方法，添加Features权重计算公式，并且实现了insert后自动更新权重。同时上传开题报告。下周元旦更新暂停一周，元旦假期过后进入前端开发阶段，后端开发基本完成。" />
+    <MESSAGE value="开始前端开发，对statics的getweight和feedback界面进行功能开发，对analyse的getweight进行功能开发，statics的insert和analyse的store界面进行接口开发，需要进一步学习html的储存、添加更多实例的功能。接下来会进行美工UI的制作开发。" />
+    <MESSAGE value="user/manager前端功能及后端功能以及前后端的链接完成，修复了一些小bug，接下来会对UI界面进行开发。" />
+    <MESSAGE value="学习了CSS的用法和spring框架的htmlUI设计，将墨刀制作的前端UI逐步移植到前端，完成main界面的移植，上次更新中修复了一些后端bug" />
+    <MESSAGE value="调整画面格式和布局" />
+    <MESSAGE value="管理员界面部分大体完成，还差亿点点细节，下面进行用户界面的搭建，以管理员界面为模板进行简单修改，还需修改一下用户微服务划分页面布局和逻辑" />
+    <MESSAGE value="用户界面设计基本完成，前端UI整体框架done，todolist：修改微服务计算公式，修改保存文件格式csv" />
+    <MESSAGE value="更新微服务计算公式，将小数转化成保留一位小数的百分数，保存文件格式改为csv" />
+    <MESSAGE value="上传了代码说明文档1.0，并且简单修改了一些BUG" />
+    <MESSAGE value="去除掉无用的module" />
+    <option name="LAST_COMMIT_MESSAGE" value="去除掉无用的module" />
+  </component>
+</project>

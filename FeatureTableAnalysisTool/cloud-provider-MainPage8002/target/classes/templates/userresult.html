@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .div1{
+        left: 0;
+        top: 130px;
+        width: 1525px;
+        height: 0;
+        border: 5px solid rgba(49, 119, 225, 100);
+        position: absolute;
+    }
+    .div2{
+        left: 150px;
+        top: 130px;
+        width: 0;
+        height: 600px;
+        border: 5px solid rgba(49, 119, 225, 100);
+        position: absolute;
+    }
+    .headimage{
+        left: 0;
+        top: 120px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+    }
+    .welcome{
+        left: 10px;
+        top: 300px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+    }
+    .functionbutt{
+        left: 200px;
+        top: 150px;
+        width: 500px;
+        height: 500px;
+        font-size: 16px;
+        position: absolute;
+    }
+    .logo{
+        left: 0;
+        top: 0;
+        width: 145px;
+        height: 142px;
+        position: absolute;
+    }
+    .projectname{
+        left: 200px;
+        top: -30px;
+        color: rgba(117, 137, 251, 100);
+        font-size: 72px;
+        text-align: left;
+        position: absolute;
+    }
+    .logout{
+        left: 1400px;
+        top: 100px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+    }
+    .superherf{
+        left: 1100px;
+        top: 150px;
+        width: 400px;
+        height: 400px;
+        font-size: 24px;
+        position: absolute;
+    }
+</style>
+<body background="/images/Sketch001.png" style=" background-repeat:no-repeat ;background-size:100% 100%;
+background-attachment: fixed;">
+
+
+
+
+<input type="hidden" name="storage" th:value="${storagefile}"/>
+<div class="logo">
+    <img src="/images/logo.png" width="145" height="142" alt="logo"/>
+</div>
+<div class="projectname">
+    <p>微 服 务 划 分 系 统</p>
+</div>
+<div class="div1"></div>
+<div class="div2"></div>
+<div class="headimage">
+    <p>
+        <img src="/images/head.png" width="150" height="150" alt="用户头像"/>
+    </p>
+</div>
+<div class="welcome">
+    <p>欢迎，用户</p>
+    <p>管理用户: user</p>
+    <p>权限等级: A</p>
+    <a href="/user/main">返回主页</a>
+</div>
+<div class="functionbutt">
+    <table border="1">
+        <tr>
+            <th>Appname</th>
+            <th>Funcmodel</th>
+            <th>Funcname</th>
+            <th>Microservice</th>
+            <th>BackEndRelated</th>
+            <th>InfoTrans</th>
+            <th>DataStore</th>
+            <th>Search</th>
+            <th>Appearance</th>
+            <th>Preference</th>
+            <th>FuncExtension</th>
+            <th>Timeliness</th>
+            <th>SoftwareDev</th>
+            <th>Notification</th>
+            <th>DataComputation</th>
+            <th>HotKey</th>
+
+        </tr>
+        <tr th:if="${session.featuretablelist} != null" th:each="c, State : ${session.featuretablelist}">
+            <td th:text="${c.getAppname()}"></td>
+            <td th:text="${c.getFuncmodel()}"></td>
+            <td th:text="${c.getFuncname()}"><</td>
+            <td th:text="${c.getMicroservice()}"></td>
+            <td th:text="${c.getBackEndRelated()}"></td>
+            <td th:text="${c.getInfoTrans()}"></td>
+            <td th:text="${c.getDataStore()}"></td>
+            <td th:text="${c.getSearch()}"></td>
+            <td th:text="${c.getAppearance()}"><</td>
+            <td th:text="${c.getPreference()}"></td>
+            <td th:text="${c.getFuncExtension()}"></td>
+            <td th:text="${c.getTimeliness()}"></td>
+            <td th:text="${c.getSoftwareDev()}"></td>
+            <td th:text="${c.getNotification()}"></td>
+            <td th:text="${c.getDataComputation()}"></td>
+            <td th:text="${c.getHotKey()}"></td>
+        </tr>
+    </table>
+
+
+    <form method="get" action="/user/insert">
+        <button type="submit">返回上一级</button>
+    </form>
+
+    <input type="button" onclick="downloads()" value="保存到本地"/>
+</div>
+<div class="logout">
+    <a href="/mainpage">退出登录</a>
+</div>
+
+
+
+<script src="/model/FileSaver.js" charset="utf-8"></script>
+<script type="text/javascript">
+    function downloads()
+    {
+        var filewriter = document.getElementsByName("storage");
+        var blob = new Blob([filewriter.item(0).value], {type: "text/plain;charset=utf-8"});
+        saveAs(blob, "microservicecut.csv");
+    }
+</script>
+
+
+
+</body>
+</html>

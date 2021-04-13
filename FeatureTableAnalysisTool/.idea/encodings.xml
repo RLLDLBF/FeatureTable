@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-server7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-AnalyseService8006" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-MainPage8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-StatisticsServer8005" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment8001" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .div1{
+        left: 0;
+        top: 130px;
+        width: 1525px;
+        height: 0;
+        border: 5px solid rgba(49, 119, 225, 100);
+        position: absolute;
+    }
+    .div2{
+        left: 150px;
+        top: 130px;
+        width: 0;
+        height: 600px;
+        border: 5px solid rgba(49, 119, 225, 100);
+        position: absolute;
+    }
+    .headimage{
+        left: 0;
+        top: 120px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+    }
+    .welcome{
+        left: 10px;
+        top: 300px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+    }
+    .functionbutt{
+        left: 200px;
+        top: 150px;
+        width: 1200px;
+        height: 500px;
+        position: absolute;
+    }
+    .logo{
+        left: 0;
+        top: 0;
+        width: 145px;
+        height: 142px;
+        position: absolute;
+    }
+    .projectname{
+        left: 200px;
+        top: -30px;
+        color: rgba(117, 137, 251, 100);
+        font-size: 72px;
+        text-align: left;
+        position: absolute;
+    }
+    .logout{
+        left: 1400px;
+        top: 100px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+    }
+    .superherf{
+        left: 1100px;
+        top: 150px;
+        width: 400px;
+        height: 400px;
+        font-size: 24px;
+        position: absolute;
+    }
+</style>
+<body background="/images/Sketch001.png" style=" background-repeat:no-repeat ;background-size:100% 100%;
+background-attachment: fixed;">
+
+<div class="logo">
+    <img src="/images/logo.png" width="140" height="135" alt="logo"/>
+</div>
+<div class="projectname" >
+    <p>微 服 务 划 分 系 统</p>
+</div>
+<div class="div1"></div>
+<div class="div2"></div>
+<div class="headimage">
+    <p>
+        <img src="/images/head.png" width="150" height="150" alt="用户头像"/>
+    </p>
+</div>
+<div class="logout">
+    <a href="/mainpage">退出登录</a>
+</div>
+<div class="welcome">
+    <p>欢迎，管理员</p>
+    <p>管理用户: admin</p>
+    <p>权限等级: S</p>
+    <a href="http://localhost:8002/manager/main">返回主页</a>
+</div>
+<div class="functionbutt">
+    <form action="" method="post">
+        <input name="addTag" type="button" value="添加输入" onclick="addTags()"/>
+        <div id="tags"></div>
+        <br />
+        Appname: <input type='text' name='Appname' value='Appname'/>
+        &nbsp;Funcname: <input type='text' name='Funcname' value="Funcname"/><br />
+        Microservice:<select name='Microservice'>
+        <option value='1'>yes</option>
+        <option value='0'>no</option>
+    </select>
+        &nbsp;BackEndRelated:<select name='BackEndRelated'>
+        <option value='1'>yes</option>
+        <option value='0'>no</option>
+    </select>
+        &nbsp;InfoTrans:<select name='InfoTrans'>
+        <option value='1'>yes</option>
+        <option value='0'>no</option>
+    </select>
+        &nbsp;DataStore:<select name='DataStore'>
+        <option value='1'>yes</option>
+        <option value='0'>no</option>
+    </select>
+        &nbsp;Search:<select name='Search'>
+        <option value='1'>yes</option>
+        <option value='0'>no</option>
+    </select>
+        &nbsp;Appearance:<select name='Appearance'>
+        <option value='1'>yes</option>
+        <option value='0'>no</option>
+    </select>
+        &nbsp;Preference:<select name='Preference'>
+        <option value='1'>yes</option>
+        <option value='0'>no</option>
+    </select><br />
+        FuncExtension:<select name='FuncExtension'>
+        <option value='1'>yes</option>
+        <option value='0'>no</option>
+    </select>
+        &nbsp;Timeliness:<select name='Timeliness'>
+        <option value='1'>yes</option>
+        <option value='0'>no</option>
+    </select>
+        &nbsp;SoftwareDev:<select name='SoftwareDev'>
+        <option value='1'>yes</option>
+        <option value='0'>no</option>
+    </select>
+        &nbsp;Notification:<select name='Notification'>
+        <option value='1'>yes</option>
+        <option value='0'>no</option>
+    </select>
+        &nbsp;DataComputation:<select name='DataComputation'>
+        <option value='1'>yes</option>
+        <option value='0'>no</option>
+    </select>
+        &nbsp;HotKey:<select name='HotKey'>
+        <option value='1'>yes</option>
+        <option value='0'>no</option>
+    </select><br />
+
+        <hr />
+        <input type="button" onclick="showTags()" value="插入" />
+        <div id="showTags"></div>
+    </form>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+    function addTags()
+    {
+        var namearr = new  Array(15);
+        namearr[0]="Appname";
+        namearr[1]="Funcname";
+        namearr[2]="Microservice";
+        namearr[3]="BackEndRelated";
+        namearr[4]="InfoTrans";
+        namearr[5]="DataStore";
+        namearr[6]="Search";
+        namearr[7]="Appearance";
+        namearr[8]="Preference";
+        namearr[9]="FuncExtension";
+        namearr[10]="Timeliness";
+        namearr[11]="SoftwareDev";
+        namearr[12]="Notification";
+        namearr[13]="DataComputation";
+        namearr[14]="HotKey";
+        var inputarr = new Array(15);
+        for(var m=0;m<15;m++){
+            var itemOriginal =document.getElementsByName(namearr[m]);
+            inputarr[m]=new Array(itemOriginal.length);
+            for(var n=0; n<itemOriginal.length;n++) {
+                inputarr[m][n] = itemOriginal.item(n).value;
+            }
+        }
+
+        var str = "    <br />Appname: <input type='text' name='Appname' value='Appname'/>\n" +
+            "    &nbsp;Funcname: <input type='text' name='Funcname' value='Funcname'/><br />\n" +
+            "    Microservice:<select name='Microservice'>\n" +
+            "    <option value='1'>yes</option>\n" +
+            "    <option value='0'>no</option>\n" +
+            "</select>\n" +
+            "    &nbsp;BackEndRelated:<select name='BackEndRelated'>\n" +
+            "    <option value='1'>yes</option>\n" +
+            "    <option value='0'>no</option>\n" +
+            "</select>\n" +
+            "    &nbsp;InfoTrans:<select name='InfoTrans'>\n" +
+            "    <option value='1'>yes</option>\n" +
+            "    <option value='0'>no</option>\n" +
+            "</select>\n" +
+            "    &nbsp;DataStore:<select name='DataStore'>\n" +
+            "    <option value='1'>yes</option>\n" +
+            "    <option value='0'>no</option>\n" +
+            "</select>\n" +
+            "    &nbsp;Search:<select name='Search'>\n" +
+            "    <option value='1'>yes</option>\n" +
+            "    <option value='0'>no</option>\n" +
+            "</select>\n" +
+            "    &nbsp;Appearance:<select name='Appearance'>\n" +
+            "    <option value='1'>yes</option>\n" +
+            "    <option value='0'>no</option>\n" +
+            "</select>\n" +
+            "    &nbsp;Preference:<select name='Preference'>\n" +
+            "    <option value='1'>yes</option>\n" +
+            "    <option value='0'>no</option>\n" +
+            "</select><br />\n" +
+            "    FuncExtension:<select name='FuncExtension'>\n" +
+            "    <option value='1'>yes</option>\n" +
+            "    <option value='0'>no</option>\n" +
+            "</select>\n" +
+            "    &nbsp;Timeliness:<select name='Timeliness'>\n" +
+            "    <option value='1'>yes</option>\n" +
+            "    <option value='0'>no</option>\n" +
+            "</select>\n" +
+            "    &nbsp;SoftwareDev:<select name='SoftwareDev'>\n" +
+            "    <option value='1'>yes</option>\n" +
+            "    <option value='0'>no</option>\n" +
+            "</select>\n" +
+            "    &nbsp;Notification:<select name='Notification'>\n" +
+            "    <option value='1'>yes</option>\n" +
+            "    <option value='0'>no</option>\n" +
+            "</select>\n" +
+            "    &nbsp;DataComputation:<select name='DataComputation'>\n" +
+            "    <option value='1'>yes</option>\n" +
+            "    <option value='0'>no</option>\n" +
+            "</select>\n" +
+            "    &nbsp;HotKey:<select name='HotKey'>\n" +
+            "        <option value='1'>yes</option>\n" +
+            "        <option value='0'>no</option>\n" +
+            "    </select><br />";
+        document.getElementById("tags").innerHTML += str;
+
+        for(var i=0;i<15;i++){
+            var itemNew =document.getElementsByName(namearr[i]);
+            for(var j=0;j<inputarr[i].length;j++) {
+                itemNew.item(j+1).value = inputarr[i][j];
+            }
+        }
+    }
+    function showTags(){
+        var namearr = new  Array(15);
+        namearr[0]="Appname";
+        namearr[1]="Funcname";
+        namearr[2]="Microservice";
+        namearr[3]="BackEndRelated";
+        namearr[4]="InfoTrans";
+        namearr[5]="DataStore";
+        namearr[6]="Search";
+        namearr[7]="Appearance";
+        namearr[8]="Preference";
+        namearr[9]="FuncExtension";
+        namearr[10]="Timeliness";
+        namearr[11]="SoftwareDev";
+        namearr[12]="Notification";
+        namearr[13]="DataComputation";
+        namearr[14]="HotKey";
+        var inputarr = new Array(15);
+        for(var m=0;m<15;m++){
+            var itemOriginal =document.getElementsByName(namearr[m]);
+            inputarr[m]=new Array(itemOriginal.length);
+            for(var n=0; n<itemOriginal.length;n++) {
+                inputarr[m][n] = itemOriginal.item(n).value;
+            }
+        }
+        var arr="";
+        for(var i=0;i<inputarr[0].length;i++){
+            for(var j=0;j<15;j++){
+                arr=arr.concat(inputarr[j][i],"*");
+            }
+        }
+        var url="";
+        url=url.concat("http://localhost:8005/statistics/feedbackweb?hidden=",arr);
+        window.location.href=url;
+    }
+</script>
+
+</body>
+</html>
