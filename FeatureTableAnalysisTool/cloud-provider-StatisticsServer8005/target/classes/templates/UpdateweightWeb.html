@@ -77,14 +77,10 @@
 <body background="/images/Sketch001.png" style=" background-repeat:no-repeat ;background-size:100% 100%;
 background-attachment: fixed;">
 
-
-
-
-
 <div class="logo">
-    <img src="/images/logo.png" width="145" height="142" alt="logo"/>
+    <img src="/images/logo.png" width="140" height="135" alt="logo"/>
 </div>
-<div class="projectname">
+<div class="projectname" >
     <p>微 服 务 划 分 系 统</p>
 </div>
 <div class="div1"></div>
@@ -94,21 +90,35 @@ background-attachment: fixed;">
         <img src="/images/head.png" width="150" height="150" alt="用户头像"/>
     </p>
 </div>
+<div class="logout">
+    <a href="http://localhost:8002/mainpage">退出登录</a>
+</div>
 <div class="welcome">
-    <p>欢迎，用户</p>
-    <p>管理用户: user</p>
-    <p>权限等级: A</p>
+    <p>欢迎，管理员</p>
+    <p>管理用户: admin</p>
+    <p>权限等级: S</p>
+    <a href="http://localhost:8002/manager/main">返回主页</a>
 </div>
 <div class="functionbutt">
-    <p>功能：</p><br/>
-    <p>通过对APP进行简单的微服务划分</p>
-    <p>从而判断该APP是否适用于微服务架构</p>
-    <form method="get" action="/user/insert">
-        <button type="submit">微服务划分</button>
+    <p>feature权重表如下：</p><br/>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>FeatureName</th>
+            <th>FeatureWeight</th>
+        </tr>
+        <tr th:if="${session.featurelist} != null" th:each="c, State : ${session.featurelist}">
+            <td th:text="${c.id}+'%'"></td>
+            <td th:text="${c.featureName}+'%'"></td>
+            <td th:text="${c.featureWeight}+'%'"></td>
+        </tr>
+    </table>
+    <div th:if=" ${result} eq 'fail'">
+        <p style="color: red">获取后端featureweight失败</p>
+    </div>
+    <form method="get" action="http://localhost:8002/manager/insert">
+        <button type="submit">继续插入数据</button>
     </form>
-</div>
-<div class="logout">
-    <a href="/mainpage">退出登录</a>
 </div>
 <div class="superherf">
     <p>拓展链接：</p><br/>
@@ -121,6 +131,8 @@ background-attachment: fixed;">
     <a href="https://www.sohu.com/a/221400925_100039689">漫画：什么是微服务</a>
 </div>
 
-
 </body>
 </html>
+
+
+

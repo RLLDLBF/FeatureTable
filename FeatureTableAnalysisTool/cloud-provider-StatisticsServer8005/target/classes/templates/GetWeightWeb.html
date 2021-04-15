@@ -108,8 +108,8 @@ background-attachment: fixed;">
             <th>FeatureWeight</th>
         </tr>
         <tr th:if="${session.featurelist} != null" th:each="c, State : ${session.featurelist}">
-            <td th:text="${c.id}+'%'"></td>
-            <td th:text="${c.featureName}+'%'"></td>
+            <td th:text="${c.id}"></td>
+            <td th:text="${c.featureName}"></td>
             <td th:text="${c.featureWeight}+'%'"></td>
         </tr>
     </table>

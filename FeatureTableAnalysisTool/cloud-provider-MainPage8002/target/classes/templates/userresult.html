@@ -124,13 +124,13 @@ background-attachment: fixed;">
         <tr th:if="${session.featuretablelist} != null" th:each="c, State : ${session.featuretablelist}">
             <td th:text="${c.getAppname()}"></td>
             <td th:text="${c.getFuncmodel()}"></td>
-            <td th:text="${c.getFuncname()}"><</td>
+            <td th:text="${c.getFuncname()}"></td>
             <td th:text="${c.getMicroservice()}"></td>
             <td th:text="${c.getBackEndRelated()}"></td>
             <td th:text="${c.getInfoTrans()}"></td>
             <td th:text="${c.getDataStore()}"></td>
             <td th:text="${c.getSearch()}"></td>
-            <td th:text="${c.getAppearance()}"><</td>
+            <td th:text="${c.getAppearance()}"></td>
             <td th:text="${c.getPreference()}"></td>
             <td th:text="${c.getFuncExtension()}"></td>
             <td th:text="${c.getTimeliness()}"></td>

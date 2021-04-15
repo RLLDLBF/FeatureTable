@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4a090627-786f-445c-a9cd-9464071cda16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/AnalyseService8006.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/controller/AnalyseServiceController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/controller/AnalyseServiceControllerWeb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/dao/AnalyseServiceDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/entities/CommonResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/entities/FeatureTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/entities/FeatureWeight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/service/AnalyseServiceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/java/com/wangshuaizhou/springcloud/service/impl/AnalyseServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/resources/templates/GetWeightWeb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/src/main/resources/templates/StoreInfoWeb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/target/classes/templates/GetWeightWeb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-AnalyseService8006/target/classes/templates/StoreInfoWeb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/controller/paymentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/controller/paymentWebController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/dao/paymentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/entities/commonResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/entities/payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/paymentMain8001.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/service/impl/paymentServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/wangshuaizhou/springcloud/service/paymentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/templates/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/META-INF/cloud-provider-payment8001.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/templates/hello.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FeatureTableAnalysisTool.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/cloud-provider-MainPage8002.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/userinsert.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/userinsert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/usermain.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/usermain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/templates/userresult.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/templates/userresult.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/main/resources/templates/GetWeightWeb.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/main/resources/templates/GetWeightWeb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/target/classes/templates/FeedBackWeb.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/target/classes/templates/FeedBackWeb.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,9 +75,6 @@
     </expand>
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="cloud2021" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -85,22 +87,21 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/xyz/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1ktgUmSCqe9wZJ8nLgA4RgnGeUT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -108,12 +109,13 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -140,27 +142,17 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StatisticsServer8005">
-    <configuration name="AnalyseService8006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-AnalyseService8006" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wangshuaizhou.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangshuaizhou.springcloud.AnalyseService8006" />
+  <component name="RunManager" selected="Spring Boot.eurekaMain7001">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,49 +196,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="paymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-payment8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wangshuaizhou.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangshuaizhou.springcloud.paymentMain8001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.StatisticsServer8005" />
         <item itemvalue="Spring Boot.MainPage8002" />
+        <item itemvalue="Spring Boot.StatisticsServer8005" />
         <item itemvalue="Spring Boot.eurekaMain7001" />
-        <item itemvalue="Spring Boot.AnalyseService8006" />
-        <item itemvalue="Spring Boot.paymentMain8001" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@84c117fb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@84c117fb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8a3736b8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -286,6 +244,8 @@
       <workItem from="1616486146492" duration="1455000" />
       <workItem from="1616586346061" duration="3037000" />
       <workItem from="1617163942540" duration="299000" />
+      <workItem from="1618387961859" duration="1805000" />
+      <workItem from="1618456019635" duration="3460000" />
     </task>
     <task id="LOCAL-00001" summary="实现了analyseservice、staticsserver的基础功能，包括server、dao层，controller层需要与前端交互故仅实现了接口和简单交互。">
       <created>1607946999492</created>
@@ -400,18 +360,17 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="实现了analyseservice、staticsserver的基础功能，包括server、dao层，controller层需要与前端交互故仅实现了接口和简单交互。" />
@@ -426,5 +385,39 @@
     <MESSAGE value="上传了代码说明文档1.0，并且简单修改了一些BUG" />
     <MESSAGE value="去除掉无用的module" />
     <option name="LAST_COMMIT_MESSAGE" value="去除掉无用的module" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="841" height="279" key="GridCell.Tab.0.bottom" timestamp="1618464304777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="841" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
+    <state width="841" height="279" key="GridCell.Tab.0.center" timestamp="1618464304777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="841" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
+    <state width="841" height="279" key="GridCell.Tab.0.left" timestamp="1618464304777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="841" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
+    <state width="841" height="279" key="GridCell.Tab.0.right" timestamp="1618464304777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="841" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
+    <state width="841" height="279" key="GridCell.Tab.1.bottom" timestamp="1618464304777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="841" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
+    <state width="841" height="279" key="GridCell.Tab.1.center" timestamp="1618464304777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="841" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
+    <state width="841" height="279" key="GridCell.Tab.1.left" timestamp="1618464304777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="841" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
+    <state width="841" height="279" key="GridCell.Tab.1.right" timestamp="1618464304777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="841" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
   </component>
 </project>
