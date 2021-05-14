@@ -23,22 +23,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a090627-786f-445c-a9cd-9464071cda16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FeatureTableAnalysisTool.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/cloud-provider-MainPage8002.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/mainpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/mainpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/managerinsert.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/managerinsert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/managermain.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/managermain.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/userinsert.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/userinsert.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/usermain.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/usermain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/userresult.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/src/main/resources/templates/userresult.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/templates/mainpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/templates/mainpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/templates/managerinsert.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/templates/managerinsert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/templates/managermain.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/templates/managermain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/templates/userinsert.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/templates/userinsert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/templates/usermain.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/templates/usermain.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/templates/userresult.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-MainPage8002/target/classes/templates/userresult.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/main/resources/templates/GetWeightWeb.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/main/resources/templates/GetWeightWeb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/target/classes/templates/FeedBackWeb.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/target/classes/templates/FeedBackWeb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/main/resources/templates/InsertWeb.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/main/resources/templates/InsertWeb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/main/resources/templates/UpdateweightWeb.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/src/main/resources/templates/UpdateweightWeb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/target/classes/templates/GetWeightWeb.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/target/classes/templates/GetWeightWeb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/target/classes/templates/InsertWeb.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/target/classes/templates/InsertWeb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/target/classes/templates/UpdateweightWeb.html" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-StatisticsServer8005/target/classes/templates/UpdateweightWeb.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,19 +147,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.eurekaMain7001">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainPage8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-provider-MainPage8002" />
       <extension name="coverage">
@@ -245,7 +235,9 @@
       <workItem from="1616586346061" duration="3037000" />
       <workItem from="1617163942540" duration="299000" />
       <workItem from="1618387961859" duration="1805000" />
-      <workItem from="1618456019635" duration="3460000" />
+      <workItem from="1618456019635" duration="4270000" />
+      <workItem from="1619061804699" duration="5319000" />
+      <workItem from="1620460308029" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="实现了analyseservice、staticsserver的基础功能，包括server、dao层，controller层需要与前端交互故仅实现了接口和简单交互。">
       <created>1607946999492</created>
@@ -387,37 +379,41 @@
     <option name="LAST_COMMIT_MESSAGE" value="去除掉无用的module" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="841" height="279" key="GridCell.Tab.0.bottom" timestamp="1618464304777">
+    <state width="841" height="279" key="GridCell.Tab.0.bottom" timestamp="1619770070734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="841" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
-    <state width="841" height="279" key="GridCell.Tab.0.center" timestamp="1618464304777">
+    <state width="841" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619770070734" />
+    <state width="841" height="279" key="GridCell.Tab.0.center" timestamp="1619770070734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="841" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
-    <state width="841" height="279" key="GridCell.Tab.0.left" timestamp="1618464304777">
+    <state width="841" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619770070734" />
+    <state width="841" height="279" key="GridCell.Tab.0.left" timestamp="1619770070734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="841" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
-    <state width="841" height="279" key="GridCell.Tab.0.right" timestamp="1618464304777">
+    <state width="841" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619770070734" />
+    <state width="841" height="279" key="GridCell.Tab.0.right" timestamp="1619770070734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="841" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
-    <state width="841" height="279" key="GridCell.Tab.1.bottom" timestamp="1618464304777">
+    <state width="841" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619770070734" />
+    <state width="841" height="279" key="GridCell.Tab.1.bottom" timestamp="1619770070734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="841" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
-    <state width="841" height="279" key="GridCell.Tab.1.center" timestamp="1618464304777">
+    <state width="841" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619770070734" />
+    <state width="841" height="279" key="GridCell.Tab.1.center" timestamp="1619770070734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="841" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
-    <state width="841" height="279" key="GridCell.Tab.1.left" timestamp="1618464304777">
+    <state width="841" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619770070734" />
+    <state width="841" height="279" key="GridCell.Tab.1.left" timestamp="1619770070734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="841" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
-    <state width="841" height="279" key="GridCell.Tab.1.right" timestamp="1618464304777">
+    <state width="841" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619770070734" />
+    <state width="841" height="279" key="GridCell.Tab.1.right" timestamp="1619770070734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="841" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618464304777" />
+    <state width="841" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619770070734" />
+    <state x="409" y="164" key="SettingsEditor" timestamp="1619061851796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="409" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619061851796" />
   </component>
 </project>
